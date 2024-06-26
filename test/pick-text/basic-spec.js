@@ -1,6 +1,6 @@
 import PickText from 'index';
 
-describe('index', () => {
+describe('basic', () => {
   beforeEach(() => {
     document.body.innerHTML = `
       <div>sample text 1</div>

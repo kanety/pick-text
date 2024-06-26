@@ -2,26 +2,12 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <script type="importmap">
-    {
-      "imports": {
-        "@kanety/pick-text": "/dist/index.module.js"
-      }
-    }
-  </script>
 </head>
 <body>
-  <h1>Basic Usage</h1>
-  <div>sample text 1</div>
-  <textarea>sample text 2</textarea>
-  <script type="module">
-    import PickText from '@kanety/pick-text';
-    document.querySelector('div').addEventListener('click', (e) => {
-      PickText.run(e.target);
-    });
-    document.querySelector('textarea').addEventListener('click', (e) => {
-      PickText.run(e.target);
-    });
-  </script>
+  <ul>
+    <li><a href="basic.html">basic</a></li>
+    <li><a href="basic.umd.html">basic.umd</a></li>
+    <li><a href="select-only.html">select-only</a></li>
+  </ul>
 </body>
 </html>
